@@ -32,7 +32,7 @@ However, the current way of collecting fixation for panoramic video data based o
 ## Detailed Procedure of Fixation Learning Data:  
 
 ### 1. WinDB Generation  
-<div align=center><img width="900" height="380" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/pip.gif"/></div>
+<div align=center><img width="900" height="380" src="https://github.com/guotaowang/WinDB/blob/main/Figs/pip.gif"/></div>
 <p align="center">Figure 1. The overall pipeline of our new HMD-free fixation collection approach for panoptic data. Compared to the widely-used HMDbased method, our WinDB approach is more economical, comfortable, and reasonable. </p>    
 
   * 1) Generate the **longitude (lon.txt)** and **latitude (lat.txt)** of WinDB;  
@@ -41,9 +41,6 @@ However, the current way of collecting fixation for panoramic video data based o
   ```python ERP2WinDB.py```
   
 ### 2. Fixation Collection  
-<div align=center><img width="400" height="120" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/Tobii.gif"/></div>
-<p align="center">Figure 2. The existing HMD-based method compares the advantages (+) and disadvantages (-) with our WinDB approach. </p>   
-
   * 1) Open the ```start.sln```<img width="75" height="25" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/start.sln.gif"/> with Visual Studio 2019;  
   * 2) Config property pages of ```start.sln```<img width="75" height="25" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/start.sln.gif"/>;    
   * 3) run the ```start.spp```<img width="90" height="30" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/start.gif"/> and the **fixation location(x, y)** will be saved in PeopleID.txt.  
