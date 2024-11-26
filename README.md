@@ -63,8 +63,6 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 
 **WinDB** provides a lightweight and efficient method for collecting Tobii fixation data using a C++ implementation. With a simple **Tobii device**, there is no need for additional paid software or complex setups. It’s as simple as it gets 😄.
 
----
-
 ### 🖥️ Tobii Installation
 1. **Install Packages**:
    - `Tobii_Eye_Tracking_Core_v2.16.8.214_x86.exe`
@@ -73,12 +71,9 @@ The existing HMD-based fixation collection method for panoptic data has a critic
    ![License](https://github.com/cvpr-submission/WinDB/blob/main/Figs/License.gif)  
 2. **Calibration**: Start the Tobii Eye Tracking software ![Tobii](https://github.com/cvpr-submission/WinDB/blob/main/Figs/TobiiL.GIF) and complete the calibration.
 
----
-
 ### 📂 Main Steps  
 **1. WinDB Generation → 2. Fixation Collection → 3. Fixation Generation**
 
----
 
 ### 🧐 Detailed Procedure of Eye Tracking Data
 
@@ -96,17 +91,12 @@ The existing HMD-based fixation collection method for panoptic data has a critic
    ```bash
    python ERP2WinDB.py
    ```
-
----
-
 #### 2. Fixation Collection  
 1. **Open the Solution File**: Use Visual Studio 2019 to open `start.sln`.  
    ![start.sln](https://github.com/cvpr-submission/WinDB/blob/main/Figs/start.sln.gif)  
 2. **Configure Property Pages**: Ensure `start.sln` has been configured correctly.
 3. **Run Fixation Collection**: Execute `start.spp` to save fixation locations **(x, y)** in `PeopleID.txt`.  
    ![start](https://github.com/cvpr-submission/WinDB/blob/main/Figs/start.gif)
-
----
 
 #### 3. Fixation Generation  
 - **Convert Fixation to ERP**:
@@ -119,8 +109,6 @@ The existing HMD-based fixation collection method for panoptic data has a critic
    ```bash
    python SphereSmooth.py
    ```
-
----
 
 ## 🌟 Key Highlights of WinDB  
 **WinDB** revolutionizes panoramic video fixation data collection by eliminating the cumbersome and expensive traditional setups involving HMDs, Unity, Steam, and more. Leveraging a straightforward C++ interface with Tobii devices, **WinDB** stands out for being simple, cost-effective, and extremely easy to use. 😄  
@@ -164,8 +152,6 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 </div>
 
 <p align="center"><b>Fig.</b> Detailed calculation of the spherical distance. <b>Fig.</b> Visualizing of the ``shifting-aware feature enhancing''.</p>  
-
----
 
 ### 🛠️ Key Steps for FishNet (CODE: https://github.com/guotaowang/FishNet/tree/main)
 
