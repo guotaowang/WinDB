@@ -159,16 +159,10 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 **C** makes the network fully aware of the fixation shifting mechanism to ensure that the network is sensitive to fixation shifting.  
 
 <div align="center">
-  <img width="450" height="250" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732614599303.gif"/>
+<img width="450" height="250" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732614599303.gif"/> <img width="400" height="180" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732614640036.gif"/>
 </div>
 
-<p align="center"><b>Fig.</b> Detailed calculation of the spherical distance.</p>  
-
-<div align="center">
-  <img width="400" height="180" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732614640036.gif"/>
-</div>
-
-<p align="center"><b>Fig.</b> Visualizing of the ``shifting-aware feature enhancing''.</p>  
+<p align="center"><b>Fig.</b> Detailed calculation of the spherical distance. <b>Fig.</b> Visualizing of the ``shifting-aware feature enhancing''.</p>  
 
 ---
 
