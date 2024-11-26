@@ -129,7 +129,7 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 ## 🌍 PanopticVideo-300 Dataset
 
 <div align="center">
-  <img width="800" height="400" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611645555.gif"/>
+  <img width="500" height="250" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611645555.gif"/>
 </div>
 
 <p align="center"><b>Fig.</b> Statistics on the types of fixation shifts and the semantic categories. All fixation data in our set is collected using <b>WinDB</b>.</p>   
