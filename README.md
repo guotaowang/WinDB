@@ -22,6 +22,8 @@
   <img width="1000" height="220" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611209391.gif"/>
 </div>
 
+The existing HMD-based fixation collection method for panoptic data has a critical limitation --- **blind zoom**, results in the collected fixations being insufficient to train deep models to accurately predict which regions in a given panoptic are most important.   
+
 ## News :newspaper:
 * **`Nov 29, 2024`:**  We uploaded the [FishNet]() model.
 * **`Nov 23, 2024`:** Our WinDB is now officially released [online]() on TPAMI journal.
@@ -83,7 +85,7 @@
 <div align="center">
   <img width="800" height="300" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611610575.gif"/>
 </div>
-*Figure 1. The overall pipeline of our HMD-free fixation collection approach for panoptic data.*
+<p align="center"><b>Fig.</b> The overall pipeline of our HMD-free fixation collection approach for panoptic data.</p>   
 
 - **Generate Longitude & Latitude**:  
    ```bash
@@ -130,7 +132,7 @@
   <img width="800" height="400" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611645555.gif"/>
 </div>
 
-<p align="center"><b>Fig.</b> The semantic categories of PanopticVideo-300 dataset. All fixation data in our set is collected using <b>WinDB</b>.</p>   
+<p align="center"><b>Fig.</b> Statistics on the types of fixation shifts and the semantic categories. All fixation data in our set is collected using <b>WinDB</b>.</p>   
 
 ### 📁 Video Clips (300)
 - **Training Set**: [240 clips](https://pan.baidu.com/s/1LeiX-p9YsAhrqTd2jq0Dfw)  
@@ -140,6 +142,8 @@
   <img width="1000" height="170" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611280138.gif"/>
 </div>
 
+<p align="center"><b>Fig.</b> Qualitative demonstration of the differences between the datasets collected by our WinDB method and the VR-Eye Tracking.</p>   
+
 ---
 
 ## 🎣 FishNet Architecture  
@@ -148,18 +152,23 @@
   <img width="1000" height="450" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611673627.gif"/>
 </div>
 
-<p align="center"><b>Fig.</b> Detailed architecture of our Fixation Shifting Network (FishNet), which comprises three core components:</p>
+<p align="center"><b>Fig.</b> The detailed network architecture of our FishNet.</p>   
 
-1. **Component A**: Focuses on ERP-based global feature embedding, achieving comprehensive perception while mitigating visual distortions.  
-2. **Component B**: Tracks fixation shifts in PanopticVideo-300, ensuring that compression issues in existing SOTA models are addressed effectively.  
-3. **Component C**: Fully comprehends and learns the mechanisms behind fixation shifting, making the network highly sensitive to fixation changes.
+**A** focuses on performing ERP-based global feature embedding to achieve panoptic perception and avoid visual distortion.  
+**B** catches fixation shifting by refocusing the network to avoid the compression problem of shifted fixations in SOTA models.  
+**C** makes the network fully aware of the fixation shifting mechanism to ensure that the network is sensitive to fixation shifting.  
 
 <div align="center">
   <img width="450" height="250" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732614599303.gif"/>
 </div>
+
+<p align="center"><b>Fig.</b> Detailed calculation of the spherical distance.</p>  
+
 <div align="center">
   <img width="400" height="180" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732614640036.gif"/>
 </div>
+
+<p align="center"><b>Fig.</b> Visualizing of the ``shifting-aware feature enhancing''.</p>  
 
 ---
 
