@@ -167,7 +167,7 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 
 ---
 
-### 🛠️ Key Steps for FishNet
+### 🛠️ Key Steps for FishNet (CODE: https://github.com/guotaowang/FishNet/tree/main)
 
 1. **Training Process**  
    ```bash
@@ -180,7 +180,7 @@ The existing HMD-based fixation collection method for panoptic data has a critic
    ```
 
 3. **Model Weight**  
-   - `Model.pt` (97.9 MB)
+   - [Model.pt](https://pan.baidu.com/s/1LeiX-p9YsAhrqTd2jq0Dfw) (97.9 MB) 
 
 4. **Results**  
    - Results are stored in the output directory.
