@@ -1,5 +1,8 @@
-### This repository contains the code for submission paper   
-# WinDB: HMD-free and Distortion-free Panoptic Video Fixation Learning.  
+### This repository contains the code for paper   
+# WinDB: HMD-free and Distortion-free Panoptic Video Fixation Learning （TPAMI2025）  
+[Guotao Wang](https://scholar.google.com/citations?user=eJIysC8AAAAJ), [Chenglizhao Chen](http://chenglizhaochen.cn/), [Aimin Hao](https://dblp.org/pid/94/5679.html), [Hong Qin](https://scholar.google.com/citations?hl=en&user=NOcejj8AAAAJ&view_op=list_works&sortby=pubdate), [Deng-Ping Fan](https://dengpingfan.github.io/)
+
+[**Arxiv**]([https://arxiv.org/pdf/2203.03041.pdf](https://arxiv.org/pdf/2305.13901)), [**中文**](https://github.com/xuebinqin/xuebinqin.github.io/blob/main/ECCV2022_DIS_Chinese.pdf).  
 
 <img width="15" height="15" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/star.gif"/><img width="15" height="15" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/star.gif"/><img width="15" height="15" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/star.gif"/> It should be emphasized that our proposed **WinDB** uses C++ to read Tobii **fixation** data, so you only need to prepare a **Tobii device** without any additional charging software and with a **simple** configuration to very **easily** run WinDB <img width="15" height="15" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/smile.gif"/>.
 However, the current way of collecting fixation for panoramic video data based on HMD is very ***complicated***, requiring the installation of a ***large amount of software***, such as Unity, Steam, VIVEPort..., and even ***expensive*** HMD and computer hosts equipped with high-end GPU cards.
@@ -52,3 +55,12 @@ However, the current way of collecting fixation for panoramic video data based o
   * 2) Smooth the **fixation** of ERP on the Sphere.   
      ERP Location(m, n)->Sphere Location(theta, phi)->Sphere Smooth->saliency  
      ```python SphereSmooth.py```   
+## Citation
+```  
+@article{wang2023windb,
+  title={WinDB: HMD-free and Distortion-free Panoptic Video Fixation Learning},
+  author={Wang, Guotao and Chen, Chenglizhao and Hao, Aimin and Qin, Hong and Fan, Deng-Ping},
+  journal={arXiv preprint arXiv:2305.13901},
+  year={2023}
+}
+```  
