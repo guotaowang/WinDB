@@ -19,7 +19,7 @@
 📄 [**Arxiv**](https://arxiv.org/pdf/2305.13901) | 🌐 [**中文**]()
 
 <div align="center">
-  <img width="1000" height="220" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611209391.gif"/>
+  <img width="1000" height="215" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611209391.gif"/>
 </div>
 
 The existing HMD-based fixation collection method for panoptic data has a critical limitation --- **blind zoom**, results in the collected fixations being insufficient to train deep models to accurately predict which regions in a given panoptic are most important.   
@@ -83,7 +83,7 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 
 #### 1. WinDB Generation  
 <div align="center">
-  <img width="800" height="300" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611610575.gif"/>
+  <img width="800" height="310" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611610575.gif"/>
 </div>
 <p align="center"><b>Fig.</b> The overall pipeline of our HMD-free fixation collection approach for panoptic data.</p>   
 
@@ -129,7 +129,7 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 ## 🌍 PanopticVideo-300 Dataset
 
 <div align="center">
-  <img width="500" height="250" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611645555.gif"/>
+  <img width="500" height="260" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611645555.gif"/>
 </div>
 
 <p align="center"><b>Fig.</b> Statistics on the types of fixation shifts and the semantic categories. All fixation data in our set is collected using <b>WinDB</b>.</p>   
@@ -149,7 +149,7 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 ## 🎣 FishNet Architecture  
 
 <div align="center">
-  <img width="1000" height="450" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611673627.gif"/>
+  <img width="1000" height="480" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611673627.gif"/>
 </div>
 
 <p align="center"><b>Fig.</b> The detailed network architecture of our FishNet.</p>   
