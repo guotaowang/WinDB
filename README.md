@@ -1,14 +1,35 @@
+<h1 align="center">🌟WinDB🌟 HMD-Free and Distortion-Free Panoptic Video Fixation Learning (TPAMI 2025)</h1>
 
-# 🌟 **WinDB: HMD-Free and Distortion-Free Panoptic Video Fixation Learning (TPAMI 2025)** 🌟
+<div align='center'>
+    <a href='https://scholar.google.com/citations?user=eJIysC8AAAAJ' target='_blank'><strong>Guotao Wang</strong></a><sup> 1</sup>,&thinsp;
+    <a href='http://chenglizhaochen.cn/' target='_blank'><strong>Chenglizhao Chen</strong></a><sup> 2, 6</sup>,&thinsp;
+    <a href='https://dblp.org/pid/94/5679.html' target='_blank'><strong>Aimin Hao</strong></a><sup> 1</sup>,&thinsp;
+    <a href='https://scholar.google.com/citations?hl=en&user=NOcejj8AAAAJ&view_op=list_works&sortby=pubdate' target='_blank'><strong>Hong Qin</strong></a><sup> 3</sup>,&thinsp;
+    <a href='https://dengpingfan.github.io/' target='_blank'><strong>Deng-Ping Fan</strong></a><sup> 4, 5</sup>,&thinsp;
+</div>
 
-### Authors: 
-[Guotao Wang](https://scholar.google.com/citations?user=eJIysC8AAAAJ), [Chenglizhao Chen](http://chenglizhaochen.cn/), [Aimin Hao](https://dblp.org/pid/94/5679.html), [Hong Qin](https://scholar.google.com/citations?hl=en&user=NOcejj8AAAAJ&view_op=list_works&sortby=pubdate), [Deng-Ping Fan](https://dengpingfan.github.io/)
+<div align='center'>
+    <sup>1 </sup>Beihang University&ensp;  <sup>2 </sup>China University of Petroleum&ensp;  <sup>3 </sup>Stony Brook University&ensp; <sup>4 </sup>Nankai University&ensp; 
+    <br />
+    <sup>5 </sup>Nankai International Advanced Research Institute (SHENZHEN FUTIAN)&ensp;  <sup>6 </sup>Sichuan Provincial Key Laboratory of Criminal Examination&ensp; 
+</div>
+
+   
 
 📄 [**Arxiv**](https://arxiv.org/pdf/2305.13901) | 🌐 [**中文**]()
 
 <div align="center">
   <img width="1000" height="220" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611209391.gif"/>
 </div>
+
+## News :newspaper:
+* **`Nov 29, 2024`:**  We uploaded the [FishNet]() model.
+* **`Nov 23, 2024`:** Our WinDB is now officially released [online]() on TPAMI journal.
+* **`Nov 27, 2024`:** We released and uploaded the Chinese version of our paper to my [Baidu Netdisk]().
+* **`Mar 7, 2024`:**  We released FishNet codes, [Baidu Netdisk]().
+* **`Mar 7, 2024`:**  We released PanopticVideo-300 dataset, [Baidu Netdisk]().
+* **`Sep 27, 2023`:**  We released WinDB codes, [Baidu Netdisk]().
+* **`May 23, 2023`:**  We released our paper on [arXiv](https://arxiv.org/abs/2305.13901).
 
 ---
 
