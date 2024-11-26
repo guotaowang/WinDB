@@ -1,66 +1,106 @@
-### This repository contains the code for paper   
-# WinDB: HMD-free and Distortion-free Panoptic Video Fixation Learning （TPAMI2025）  
+# 🌟 **WinDB: HMD-free and Distortion-free Panoptic Video Fixation Learning (TPAMI2025)** 🌟
+
 [Guotao Wang](https://scholar.google.com/citations?user=eJIysC8AAAAJ), [Chenglizhao Chen](http://chenglizhaochen.cn/), [Aimin Hao](https://dblp.org/pid/94/5679.html), [Hong Qin](https://scholar.google.com/citations?hl=en&user=NOcejj8AAAAJ&view_op=list_works&sortby=pubdate), [Deng-Ping Fan](https://dengpingfan.github.io/)
 
-[**Arxiv**]([https://arxiv.org/pdf/2203.03041.pdf](https://arxiv.org/pdf/2305.13901)), [**中文**](https://github.com/xuebinqin/xuebinqin.github.io/blob/main/ECCV2022_DIS_Chinese.pdf).  
+📄 [**Arxiv**](https://arxiv.org/pdf/2305.13901) | 🌐 [**中文**]()
 
-<img width="15" height="15" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/star.gif"/><img width="15" height="15" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/star.gif"/><img width="15" height="15" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/star.gif"/> It should be emphasized that our proposed **WinDB** uses C++ to read Tobii **fixation** data, so you only need to prepare a **Tobii device** without any additional charging software and with a **simple** configuration to very **easily** run WinDB <img width="15" height="15" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/smile.gif"/>.
-However, the current way of collecting fixation for panoramic video data based on HMD is very ***complicated***, requiring the installation of a ***large amount of software***, such as Unity, Steam, VIVEPort..., and even ***expensive*** HMD and computer hosts equipped with high-end GPU cards.
+---
 
-## Table of Contents
+## 📖 Table of Contents
 - [Requirements](#requirements)
 - [Tobii Installation](#tobii-installation)
 - [Main Steps](#main-steps)
-- [Detailed Procedure of Eye Tracking Data:](#detailed-procedure-of-eye-tracking-data)
+- [Detailed Procedure of Eye Tracking Data](#detailed-procedure-of-eye-tracking-data)
   * [1. WinDB Generation](#1-windb-generation)
   * [2. Fixation Collection](#2-fixation-collection)
   * [3. Fixation Generation](#3-fixation-generation)
+- [Citation](#citation)
 
-## Requirements.  
-* Visual Studio 2019   
-* Matlab2016b     
-* python3.6.4   
-* pytorch1.10.0   
-* CUDA10.2    
-* Opencv python and C++  
-* Tobii Eye Tracking installation package (TobiiGhost.1.7.0-Setup.exe, Tobii_Eye_Tracking_Core_v2.16.8.214_x86.exe)  
+---
 
-## Tobii Installation
-  * 1 Install Tobii_Eye_Tracking_Core_v2.16.8.214_x86.exe and TobiiGhost.1.7.0-Setup.exe (**License.pdf**<img width="300" height="15" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/License.gif"/>).  
-  * 2 Start the Tobii Eye Tracking <img width="25" height="25" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/TobiiL.GIF"/> and calibration.  
+## 🛠️ Requirements
+- **Visual Studio 2019**
+- **Matlab2016b**
+- **Python 3.6.4**
+- **PyTorch 1.10.0**
+- **CUDA 10.2**
+- **OpenCV (Python and C++)**
+- **Tobii Eye Tracking installation packages**:
+  - `TobiiGhost.1.7.0-Setup.exe`
+  - `Tobii_Eye_Tracking_Core_v2.16.8.214_x86.exe`
 
-## Main Steps  
-### 1. WinDB Generation -> 2. Fixation Collection -> 3. Fixation Generation
+**WinDB** provides a lightweight and efficient way to read **Tobii fixation data** using a pure C++ implementation. All you need is a **Tobii device**, with no extra paid software or complex configurations required. Running **WinDB** is as simple as it gets 😄.
 
-## Detailed Procedure of Fixation Learning Data:  
+---
+
+## 🖥️ Tobii Installation
+1. Install the following packages:
+   - `Tobii_Eye_Tracking_Core_v2.16.8.214_x86.exe`
+   - `TobiiGhost.1.7.0-Setup.exe`  
+   > See the detailed `License.pdf`.  
+   ![License](https://github.com/cvpr-submission/WinDB/blob/main/Figs/License.gif)  
+2. Start the Tobii Eye Tracking software ![Tobii](https://github.com/cvpr-submission/WinDB/blob/main/Figs/TobiiL.GIF) and complete the calibration.
+
+---
+
+## 📂 Main Steps  
+### **1. WinDB Generation → 2. Fixation Collection → 3. Fixation Generation**
+
+---
+
+## 🧐 Detailed Procedure of Eye Tracking Data
 
 ### 1. WinDB Generation  
-<div align=center><img width="900" height="380" src="https://github.com/guotaowang/WinDB/blob/main/Figs/pip.gif"/></div>
-<p align="center">Figure 1. The overall pipeline of our new HMD-free fixation collection approach for panoptic data. Compared to the widely-used HMDbased method, our WinDB approach is more economical, comfortable, and reasonable. </p>    
+![Pipeline](https://github.com/guotaowang/WinDB/blob/main/Figs/pip.gif)  
+*Figure 1. The overall pipeline of our new HMD-free fixation collection approach for panoptic data. Compared to the widely-used HMD-based method, our WinDB approach is more economical, comfortable, and reasonable.*
 
-  * 1) Generate the **longitude (lon.txt)** and **latitude (lat.txt)** of WinDB;  
-  ```python ERP2WinDBLonLat.py``` 
-  * 2) From ERP to WinDB based on **LonLat (lon.txt, lat.txt)** of WinDB.  
-  ```python ERP2WinDB.py```
-  
+1. Generate the **longitude (lon.txt)** and **latitude (lat.txt)** of WinDB:  
+   ```bash
+   python ERP2WinDBLonLat.py
+    ```
+2. Convert ERP to WinDB using **LonLat (lon.txt, lat.txt)**:  
+   ```bash
+   python ERP2WinDB.py
+   ```
+
+---
+
 ### 2. Fixation Collection  
-  * 1) Open the ```start.sln```<img width="75" height="25" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/start.sln.gif"/> with Visual Studio 2019;  
-  * 2) Config property pages of ```start.sln```<img width="75" height="25" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/start.sln.gif"/>;    
-  * 3) run the ```start.spp```<img width="90" height="30" src="https://github.com/cvpr-submission/WinDB/blob/main/Figs/start.gif"/> and the **fixation location(x, y)** will be saved in PeopleID.txt.  
+1. Open the solution file `start.sln` with Visual Studio 2019:  
+   ![start.sln](https://github.com/cvpr-submission/WinDB/blob/main/Figs/start.sln.gif)  
+2. Configure property pages for `start.sln`.  
+3. Run `start.spp` to save fixation locations **(x, y)** in `PeopleID.txt`:  
+   ![start](https://github.com/cvpr-submission/WinDB/blob/main/Figs/start.gif)
+
+---
 
 ### 3. Fixation Generation  
-  * 1) Convert the **fixation location(x, y)** of WinDB to ERP;   
-     fixation location(x, y)->WinDB location(theta, phi)->ERP Location(m, n)  
-     ```python Location2WinDB.py```   
-  * 2) Smooth the **fixation** of ERP on the Sphere.   
-     ERP Location(m, n)->Sphere Location(theta, phi)->Sphere Smooth->saliency  
-     ```python SphereSmooth.py```   
-## Citation
-```  
+1. Convert the **fixation location (x, y)** of WinDB to ERP:  
+   - Fixation location (x, y) → WinDB location (θ, φ) → ERP Location (m, n).  
+   ```bash
+   python Location2WinDB.py
+   ```
+2. Smooth the fixation data on the sphere:  
+   - ERP Location (m, n) → Sphere Location (θ, φ) → Sphere Smooth → Saliency.  
+   ```bash
+   python SphereSmooth.py
+   ```
+
+---
+
+## 🌟 Highlights of WinDB  
+**WinDB** uses C++ to directly read Tobii fixation data, requiring only a **Tobii device** with minimal setup. Unlike the traditional approach for panoramic video fixation collection, which involves complex setups (Unity, Steam, VIVEPort, etc.) and expensive hardware (HMDs, high-end GPUs), **WinDB** is simpler, more cost-effective, and more user-friendly. 😄  
+
+---
+
+## 📜 Citation  
+If you use **WinDB**, please cite the following paper:
+
+```bibtex
 @article{wang2023windb,
   title={WinDB: HMD-free and Distortion-free Panoptic Video Fixation Learning},
   author={Wang, Guotao and Chen, Chenglizhao and Hao, Aimin and Qin, Hong and Fan, Deng-Ping},
   journal={arXiv preprint arXiv:2305.13901},
   year={2023}
 }
-```  
+```
