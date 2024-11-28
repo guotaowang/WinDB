@@ -19,7 +19,7 @@
 📄 [**Arxiv**](https://arxiv.org/pdf/2305.13901) | 🌐 [**中文**]()
 
 <div align="center">
-  <img width="1000" height="215" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611209391.gif"/>
+  <img width="1000" height="210" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611209391.gif"/>
 </div>
 
 The existing HMD-based fixation collection method for panoptic data has a critical limitation --- **blind zoom**, results in the collected fixations being insufficient to train deep models to accurately predict which regions in a given panoptic are most important.   
@@ -148,7 +148,7 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 **C** makes the network fully aware of the fixation shifting mechanism to ensure that the network is sensitive to fixation shifting.  
 
 <div align="center">
-<img width="400" height="250" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732614599303.gif"/> <img width="400" height="180" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732614640036.gif"/>
+<img width="400" height="250" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732614599303.gif"/> <img width="400" height="170" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732614640036.gif"/>
 </div>
 
 <p align="center"><b>Fig.</b> Detailed calculation of the spherical distance. <b>Fig.</b> Visualizing of the ``shifting-aware feature enhancing''.</p>  
@@ -190,7 +190,7 @@ The existing HMD-based fixation collection method for panoptic data has a critic
    ```
 
 <div align="center">
-  <img width="600" height="300" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611752777.gif"/>
+  <img width="600" height="290" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611752777.gif"/>
 </div>
 
 ---
