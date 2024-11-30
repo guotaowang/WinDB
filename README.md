@@ -166,7 +166,7 @@ The existing HMD-based fixation collection method for panoptic data has a critic
    ```
 
 3. **Model Weight**  
-   - [Model.pt](https://pan.baidu.com/s/16Q5aFhYVGu81Ig5wnv4j9A?pwd=48a5) (97.9 MB) 
+   - [Model.pt](https://pan.baidu.com/s/1LeiX-p9YsAhrqTd2jq0Dfw) (97.9 MB) 
 
 4. **Results**  
    - Results are stored in the output directory.
