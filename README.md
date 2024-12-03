@@ -115,7 +115,7 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 
 ---
 
-## 🌍 PanopticVideo-300 Dataset
+## 🌍 PanopticVideo-300 Dataset (CODE:https://github.com/guotaowang/PanopticVideo-300)
 
 <div align="center">
   <img width="500" height="260" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611645555.gif"/>
@@ -135,7 +135,7 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 
 ---
 
-## 🎣 FishNet Architecture  
+## 🎣 FishNet Architecture (CODE: https://github.com/guotaowang/FishNet)
 
 <div align="center">
   <img width="1000" height="480" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611673627.gif"/>
@@ -153,7 +153,7 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 
 <p align="center"><b>Fig.</b> Detailed calculation of the spherical distance. <b>Fig.</b> Visualizing of the ``shifting-aware feature enhancing''.</p>  
 
-### 🛠️ Key Steps for FishNet (CODE: https://github.com/guotaowang/FishNet/tree/main)
+### 🛠️ Key Steps for FishNet 
 
 1. **Training Process**  
    ```bash
