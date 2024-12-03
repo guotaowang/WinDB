@@ -26,8 +26,8 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 
 ## News :newspaper:
 * **`Nov 29, 2024`:**  We uploaded the FishNet model [Baidu Netdisk](https://pan.baidu.com/s/16Q5aFhYVGu81Ig5wnv4j9A?pwd=48a5), [Google Netdisk](https://drive.google.com/file/d/1M78YHnyVDdvFh1bjJxAaaerhZmovujfS/view?usp=sharing).
-* **`Nov 23, 2024`:** Our WinDB is now officially released [online](https://pan.baidu.com/s/1zugJ-HxiM7LZRoq-9baMdg?pwd=vgjo) on TPAMI journal.
-* **`Nov 27, 2024`:** We released and uploaded the Chinese version of our paper to my [Baidu Netdisk](https://pan.baidu.com/s/1PonoZTmK-Xlw4hSD-9-2Bw?pwd=agci).
+* **`Nov 23, 2024`:** Our WinDB is now officially released online [Baidu Netdisk](https://pan.baidu.com/s/1zugJ-HxiM7LZRoq-9baMdg?pwd=vgjo), [Google Netdisk](https://drive.google.com/file/d/1HvnRCJEho4BgACF-ligRp-3TE5lEZS4j/view?usp=sharing) on TPAMI journal.
+* **`Nov 27, 2024`:** We released and uploaded the Chinese version of our paper to my [Baidu Netdisk](https://pan.baidu.com/s/1PonoZTmK-Xlw4hSD-9-2Bw?pwd=agci), [Google Netdisk](https://drive.google.com/file/d/10Txwd4A4dMxrM0Ob0E4S1x4PambZUHAL/view?usp=sharing).
 * **`Mar 7, 2024`:**  We released FishNet codes, [Code](https://github.com/guotaowang/FishNet).
 * **`Mar 7, 2024`:**  We released PanopticVideo-300 dataset, [Code](https://github.com/guotaowang/PanopticVideo-300).
 * **`Sep 27, 2023`:**  We released WinDB codes, [Code](https://github.com/guotaowang/WinDB).
@@ -124,8 +124,8 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 <p align="center"><b>Fig.</b> Statistics on the types of fixation shifts and the semantic categories. All fixation data in our set is collected using <b>WinDB</b>.</p>   
 
 ### 📁 Video Clips (300)
-- **Training Set**: [240 clips](https://pan.baidu.com/s/17Awqc_1uZd2e8XmYylag-Q?pwd=aqhy)  
-- **Testing Set**: [60 clips](https://pan.baidu.com/s/17Awqc_1uZd2e8XmYylag-Q?pwd=aqhy)
+- **Training Set**: 240 clips [Baidu Netdisk](https://pan.baidu.com/s/17Awqc_1uZd2e8XmYylag-Q?pwd=aqhy), [Google Netdisk](https://drive.google.com/drive/folders/1jEBI--lfJk8TY43kktE97BZesp-FmZp9?usp=sharing)   
+- **Testing Set**: 60 clips [Baidu Netdisk](https://pan.baidu.com/s/17Awqc_1uZd2e8XmYylag-Q?pwd=aqhy), [Google Netdisk](https://drive.google.com/drive/folders/1jEBI--lfJk8TY43kktE97BZesp-FmZp9?usp=sharing)
 
 <div align="center">
   <img width="1000" height="170" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611280138.gif"/>
@@ -166,7 +166,7 @@ The existing HMD-based fixation collection method for panoptic data has a critic
    ```
 
 3. **Model Weight**  
-   - [Model.pt](https://pan.baidu.com/s/11YoqCtI7iT1ZHw3NhpzgzQ?pwd=j5ap) (97.9 MB) 
+   - Model_best.pth [Baidu Netdisk](https://pan.baidu.com/s/16Q5aFhYVGu81Ig5wnv4j9A?pwd=48a5), [Google Netdisk](https://drive.google.com/file/d/1M78YHnyVDdvFh1bjJxAaaerhZmovujfS/view?usp=sharing) (97.9 MB) 
 
 4. **Results**  
    - Results are stored in the output directory.
