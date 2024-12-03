@@ -16,7 +16,7 @@
 
    
 
-📄 [**Arxiv**](https://arxiv.org/pdf/2305.13901) | 🌐 [**中文**]()
+📄 [**英文**](https://drive.google.com/file/d/1HvnRCJEho4BgACF-ligRp-3TE5lEZS4j/view?usp=sharing) | 🌐 [**中文**](https://drive.google.com/file/d/10Txwd4A4dMxrM0Ob0E4S1x4PambZUHAL/view?usp=sharing)
 
 <div align="center">
   <img width="1000" height="210" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611209391.gif"/>
