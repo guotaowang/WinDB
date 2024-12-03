@@ -124,8 +124,8 @@ The existing HMD-based fixation collection method for panoptic data has a critic
 <p align="center"><b>Fig.</b> Statistics on the types of fixation shifts and the semantic categories. All fixation data in our set is collected using <b>WinDB</b>.</p>   
 
 ### 📁 Video Clips (300)
-- **Training Set**: [240 clips](https://pan.baidu.com/s/1LeiX-p9YsAhrqTd2jq0Dfw)  
-- **Testing Set**: [60 clips](https://pan.baidu.com/s/1LeiX-p9YsAhrqTd2jq0Dfw)
+- **Training Set**: [240 clips](https://pan.baidu.com/s/17Awqc_1uZd2e8XmYylag-Q?pwd=aqhy)  
+- **Testing Set**: [60 clips](https://pan.baidu.com/s/17Awqc_1uZd2e8XmYylag-Q?pwd=aqhy)
 
 <div align="center">
   <img width="1000" height="170" src="https://github.com/guotaowang/WinDB/blob/main/Figs/1732611280138.gif"/>
@@ -166,7 +166,7 @@ The existing HMD-based fixation collection method for panoptic data has a critic
    ```
 
 3. **Model Weight**  
-   - [Model.pt](https://pan.baidu.com/s/1LeiX-p9YsAhrqTd2jq0Dfw) (97.9 MB) 
+   - [Model.pt](https://pan.baidu.com/s/11YoqCtI7iT1ZHw3NhpzgzQ?pwd=j5ap) (97.9 MB) 
 
 4. **Results**  
    - Results are stored in the output directory.
